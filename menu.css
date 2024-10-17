@@ -10,3 +10,70 @@ body{
     grid-template-columns: 50%;
     grid-template-rows: 25% 25% 25% 25%;
 }
+.d4{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+.d6{
+    background-color: orange;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+.d10{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+.d20{
+    background-color: yellowgreen;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+.d100{
+    background-color: blueviolet;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    width: 94%;
+    height: 94%;
+    margin-left: 3%;
+    margin-top: 4px;
+}
+.jogo{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    width: 94%;
+    height: 94%;
+    margin-left: 3%;
+    margin-top: 4px;
+}
+
