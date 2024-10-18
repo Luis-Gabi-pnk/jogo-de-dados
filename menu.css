@@ -2,16 +2,17 @@ body{
     background-color: darkolivegreen;
 }
 .menue{
-    background-color: black;
+    background-color: rgb(16, 22, 6);
     height: 800px;
     width: 70%;
     margin-left: 15%;
     display: grid;
     grid-template-columns: 50%;
     grid-template-rows: 25% 25% 25% 25%;
+    margin-top: 40px ;
 }
 .d4{
-    background-color: red;
+    background-color: rgb(227, 247, 199);
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -22,7 +23,7 @@ body{
     margin-top: 8px;
 }
 .d6{
-    background-color: orange;
+    background-color: rgb(227, 247, 199);
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -33,7 +34,7 @@ body{
     margin-top: 8px;
 }
 .d10{
-    background-color: yellow;
+    background-color: rgb(227, 247, 199);
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -44,7 +45,7 @@ body{
     margin-top: 8px;
 }
 .d20{
-    background-color: yellowgreen;
+    background-color: rgb(227, 247, 199);
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -55,7 +56,7 @@ body{
     margin-top: 8px;
 }
 .d100{
-    background-color: blueviolet;
+    background-color: rgb(227, 247, 199);
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -66,7 +67,7 @@ body{
     margin-top: 4px;
 }
 .jogo{
-    background-color: blue;
+    background-color: rgb(227, 247, 199);
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 4;
@@ -88,4 +89,15 @@ p{
     text-align: center;
     font-size: 50px;
 }
-
+.titulo{
+    width: 70%;
+    height: 97px;
+    background-color: rgb(57, 73, 30);
+    margin-left: 15%;
+}
+.textitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 0px 0px 10px white;
+}
